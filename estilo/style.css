@@ -20,6 +20,8 @@ main{
     position: relative;
     height: 100vh;/* coloquei vw em vh por isso o coonteudo estava rolando*/
     width: 100vw;
+   
+   
 
    /* 
    !!!!!!!!!!!!OBS!!!!!!!!!
@@ -52,23 +54,34 @@ iframe#tela{
    
 
 }
-#network{
-    
-    height: 400px;
-    width: 100px;
-    
+
+
+section#network{
+
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
     
 
+
+section#network  img{
     
-    
+    height: 50px;
+    margin-top: 10px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.692);
+    box-sizing: border-box;
+   
+
 }
 
-#network > img{
-    
-    height: 70px;
-    width: 70px;
-    padding: 10px;
-    border-radius: 50%;
+section#network  img:hover{
+
+transform: translate(  -10px , -10px ) ;
+box-shadow: 5px 5px 10px black;
+transition: .8s;
 
 }
 
