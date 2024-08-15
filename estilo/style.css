@@ -71,17 +71,16 @@ section#network  img{
     margin-top: 10px;
     margin: 8px;
     border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.692);
     box-sizing: border-box;
    
 
 }
 
 section#network  img:hover{
-
+    border: 2px solid rgba(255, 255, 255, 0.692);
 transform: translate(  -10px , -10px ) ;
 box-shadow: 5px 5px 10px black;
-transition: .8s;
+transition: .8s , border .3s ;
 
 }
 
